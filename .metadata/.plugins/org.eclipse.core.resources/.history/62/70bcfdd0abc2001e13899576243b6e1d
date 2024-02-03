@@ -1,0 +1,11 @@
+package com.kamil.springmvcboot;
+
+import org.springframework.stereotype.Controller;
+
+@Controller("/index")
+public class HomeController {
+
+	public void home() {
+		System.out.println("home page requested");
+	}
+}
